@@ -1,0 +1,22 @@
+//Problema03 (miniespecificación -use ciclo mientras-)
+Generar e imprimir la siguiente serie:
++1/1-1/3+1/5-1/7+1/9//
+
+1. Inicio 
+2. contador, i[0-11]
+3. contador <-- 1		
+4. cadenaFinal x(200)[{1-n},{/},{BS}]
+5.  cadenaFinal<-- ""
+6. Mientras contador <=9 entonces
+7.	si ((contador == 3) or (contador == 7)) entonces
+8.	     cadenaFinal <-- cadenaFinal + "-1/" + contador
+9.  	En caso contrario
+10.	cadenaFinal <-- cadenaFinal + "+1/" + contador
+11.	Fin si
+12.	contador == contador + 2
+13.Fin Mientras
+14.<<cadenaaFinal
+15.Fin
+
+
+

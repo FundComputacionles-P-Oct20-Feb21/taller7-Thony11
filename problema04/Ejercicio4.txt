@@ -1,0 +1,58 @@
+//Problema04 (miniespecificación -use ciclo haga-hasta)
+Generar una solución que permita ingresar jugadores de fútbol; por cada jugador se debe solicitar:
+Nombre el jugador
+Posición en el campo de juego
+Edad
+Estatura
+El ciclo de ingreso de información deberá terminar cuando el usuario lo decida. Se debe imprimer el siguiente reporte (usar una cadena de acumulación):
+
+Listado de Jugadores
+
+Alexander Dominguez -Arquero-, edad 32, estatura 1.95
+Xavier Arreaga -Defensa-, edad 24, estatura 1.85
+Moisés Caicedo -Mediocentro-, edad 19, estatura 1.88
+Ángel Mena -Delantero-, edad 32, estatura 1.75
+Michael Estrada -Delantero-, edad 27, estatura 1.93 Promedio de edades: 26.8 Promedio de estaturas: 1.87//
+
+1. Inicio
+2. contador, i[0-n]
+3. contador <-- 1
+4. bandera <-- true
+5. nombre, x(50)[{a-z},{A-Z},{1-9},{BS}]<-- " "
+6. posicion, x(50)[{a-z},{A-Z},{1-9},{BS}]<-- " "
+7. desicion, i[0-n]
+8. edad, i[0-100]
+9. estatura, d[0-n]
+10. acomulacionEdad, i[0-n]
+11. acomulacionEstatura, i[0-n]
+12. promedioEdad, d[0-n]
+13. promedioEstatura, d[0-n]
+14. cadenaFinal, x(50)[{a-z},{A-Z},{1-9},{BS}]<-- " "
+15. haga_hasta
+16.     Escribir"Ingrese el nombre del jugador"
+17.      leer nombre
+18.      Escribir"Ingrese la posicion en el campo de juego"
+19.      leer posicion
+20.      Escribir"Ingrese la edad del jugador"
+21.      Escribir"Ingrese la estatura"
+22.      Leer estatura
+23.      acomulacionEdad<--acomulacionEdad + edad
+24.      acomulacionEstatura<--acomulacionEstatura + estatura
+25.      contador<--contador + 1
+26.      cadenaFinal<--cadenaFinal + "-" + nombre + "-" + edad + "-" + estatura + estatura "/"
+27.      Escribir "Si usted no desea ingresar mas jugadores digite 0"
+28.      leer desicion
+29.      si desicion < 0 entonces
+30.              bandera <-- false
+31.      fin si
+32. Fin haga_hasta
+33. promedioEstatura <-- acomulacionEstatura / contador
+34. promedioEdad <-- acomulacionEdad / contador
+35. cadenaFinal <-- cadenaFinal + "promedio de edades: "\n" + promedio + promedioEdad "\n" + promedioEstatura: "\n" + promedioEs
+36. cadenaFinal
+37. Fin
+
+
+
+
+ 

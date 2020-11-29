@@ -1,0 +1,13 @@
+//Problema02 (miniespecificación y diagrama de flujo)
+Generar e imprimir la siguiente serie://
+
+1. Inicio 
+2. contador, i[0-9]
+3. contador <-- 1
+5. cadenaFinal x(200)[{2-n},{/},{BS}]<-- ""
+6. Mientras contador <=9 entonces
+7. 	cadenaFinal <-- cadenaFinal + "+1" + "/" + contador
+8.      contador <-- contador + 2
+9. Fin Mientras
+10.<< cadenaFinal
+11.Fin 
